@@ -1,0 +1,9 @@
+:root { color-scheme: dark; }
+body { margin:0; font-family:system-ui,sans-serif; background:linear-gradient(125deg,#051138,#0f1733,#1d4ed8); color:#e5e7eb; }
+.container { max-width:940px; margin:20px auto; padding:16px; }
+.card { background:rgba(7,13,31,.8); border:1px solid #334155; border-radius:14px; padding:14px; margin-top:12px; }
+input,textarea,button { width:100%; box-sizing:border-box; margin-top:8px; border-radius:10px; padding:10px; border:1px solid #374151; background:#0a1126; color:#fff; }
+button { background:#2563eb; border:none; font-weight:600; }
+#qr { width:260px; background:#fff; padding:8px; border-radius:10px; }
+.chat { padding:8px; border-bottom:1px solid #1e293b; font-size:14px; }
+pre { white-space:pre-wrap; word-break:break-word; }

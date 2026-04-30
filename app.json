@@ -1,0 +1,16 @@
+{
+  "name": "baileys-heroku-advanced",
+  "description": "Advanced WhatsApp control panel on Heroku with Baileys and Heroku Postgres",
+  "repository": "https://example.com/your-repo.git",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "whatsapp", "baileys", "heroku", "postgres"],
+  "addons": ["heroku-postgresql:essential-0"],
+  "env": {
+    "NODE_ENV": {
+      "value": "production"
+    },
+    "LOG_LEVEL": {
+      "value": "info"
+    }
+  }
+}

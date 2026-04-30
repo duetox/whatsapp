@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WA Advanced Control</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div class="container">
+  <h1>WhatsApp Advanced Control</h1>
+  <p class="sub">QR / Pairing / Chats / Messages / JID Send</p>
+
+  <section class="card"><h2>Connection</h2><p id="status">Loading...</p><button id="refresh">Refresh</button><button id="reconnect">Reconnect</button></section>
+  <section class="card"><h2>QR Login</h2><img id="qr" alt="QR code will appear here" /></section>
+  <section class="card"><h2>Pairing Code</h2><input id="phone" placeholder="e.g. 919876543210" /><button id="pairBtn">Get Pairing Code</button><p id="pairResult"></p></section>
+
+  <section class="card"><h2>Chats (recent)</h2><button id="loadChats">Load Chats</button><div id="chats"></div></section>
+  <section class="card"><h2>Messages by JID</h2><input id="msgJid" placeholder="chat jid" /><button id="loadMsgs">Load Messages</button><pre id="msgs"></pre></section>
+
+  <section class="card"><h2>Send to JID with JS message object</h2><input id="jid" placeholder="target@s.whatsapp.net" /><textarea id="messageCode" rows="6">({ text: "Hello from advanced panel" })</textarea><button id="sendBtn">Send</button><pre id="sendResult"></pre></section>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
